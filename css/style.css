@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*======END OF CSS RESET=====*/
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+strong,
+b {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+p,
+ul li,
+ol li {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*CONTAINER*/
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.row {
+    overflow: hidden;
+/*    margin-top: 50px;*/
+}
+
+
+#logo {
+    padding-left: 55px;
+}
+
+#navLogo {
+    width: 40px;
+    height: auto;
+}
+
+#textLogo {
+    font-family: 'Satisfy', cursive;
+    color: #daf5ff;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+}
+
+nav {
+    position: relative;
+}
+
+.navbar {
+    padding: 10px 20px;
+    background-color: rgba(97,97,99, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 75px;
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+/*    color: rgb(253,86,10);*/
+    color: #daf5ff;
+    text-shadow: 2px 2px #000000;
+}
+
+
+.navbar ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hero {
+    height: 700px;
+    background: url('../img/scott-webb-195100.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-hero_head-6 {
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 64px;
+    color: rgb(237,238,127);
+    text-align: center;
+    background: rgba(97,97,99, 0.2);
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+
+#homegreeting {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#heroText {
+    color: #616163;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heroText strong {
+    color: #fe5f55;
+}
+
+
+
+
+#myWork {
+    height: 700px;
+    background: url('../img/negative-space-ps-i-love-my-coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#work_heading {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(237, 238, 127);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.col-4-work {
+    position: relative;
+    width: 33%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-right: 3px;
+}
+
+
+.portfolio_thumbnail {
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #777DA7;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlay_text {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.col-4-work:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+
+
+
