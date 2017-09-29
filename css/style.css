@@ -203,24 +203,23 @@ a {
 .row {
     overflow: hidden;
 /*    margin-top: 50px;*/
+    height: auto;
 }
+
+
+/*NAV STYLES*/
 
 
 #logo {
     padding-left: 55px;
-}
-
-#navLogo {
+    font-family: 'Bangers', cursive;
+    color: #daf5ff;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
     width: 40px;
     height: auto;
 }
 
-#textLogo {
-    font-family: 'Satisfy', cursive;
-    color: #daf5ff;
-    font-size: 30px;
-    text-shadow: 2px 2px #000000;
-}
 
 nav {
     position: relative;
@@ -236,13 +235,15 @@ nav {
     width: 100%;
 }
 
+/*#daf5ff;*/
+
 .navbar ul li {
     display: inline-block;
     margin-right: 75px;
     font-family: 'Bangers', cursive;
     font-size: 24px;
 /*    color: rgb(253,86,10);*/
-    color: #daf5ff;
+    color: #d7dae5;
     text-shadow: 2px 2px #000000;
 }
 
@@ -253,9 +254,13 @@ nav {
     right: 0;
 }
 
+
+
+/*===========HERO SECTION STYLES========*/
+
 .hero {
     height: 700px;
-    background: url('../img/scott-webb-195100.jpg');
+    background: url('../img/hero.png');
     background-size: cover;
     background-position: center;
 }
@@ -270,9 +275,10 @@ nav {
     font-size: 64px;
     color: rgb(237,238,127);
     text-align: center;
-    background: rgba(97,97,99, 0.2);
+/*    background: rgba(97,97,99, 0.2);*/
     border-radius: 10px;
     text-transform: uppercase;
+    
 
 }
 
@@ -280,48 +286,52 @@ nav {
 #homegreeting {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    text-shadow: 0px 0px 20px; rgb(237, 238, 127);
 }
 
 #heroText {
-    color: #616163;
+    color: #464647;
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
 #heroText strong {
-    color: #fe5f55;
+    color: #f7ee7f;
 }
 
 
 
 
+/*=======WORK/SCREENSHOTS/PORTFOLIO SECTION==========*/
+
 #myWork {
     height: 700px;
-    background: url('../img/negative-space-ps-i-love-my-coffee.jpg');
+    background: url('../img/work.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
 }
 
 #work_heading {
     font-size: 40px;
-    padding-top: 50px;
+/*    padding-top: 50px;*/
     text-align: center;
     text-transform: uppercase;
     color: rgb(237, 238, 127);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-weight: bold;
-    border: 2px solid black;
     width: 50%;
     margin: 0 auto;
+    text-shadow: 0px 0px 10px; rgb(237,238,127);
 }
 
 
 .col-4-work {
     position: relative;
     width: 33%;
-    height: auto;
+    height: 205px;
     float: left;
     margin-top: 50px;
     margin-right: 3px;
@@ -348,15 +358,50 @@ nav {
 }
 
 .overlay_text {
-    position: absolute;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
     top: 50%;
-    left: 45%;
+    transform: translateY(-50%);
 }
 
 .col-4-work:hover .overlay {
   bottom: 0;
   height: 100%;
 }
+
+
+
+
+#about {
+    height: 375px;
+    background-color: #d7dae5;
+}
+
+
+
+.col-6-about {
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+#about_image {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+#about_text span {
+    font-size: 14px;
+   line-height: 2px;
+}
+
+
+
+
+
 
 
 
